@@ -1,0 +1,23 @@
+reporter: null
+dry-run: null
+hookfiles: null
+sandbox: false
+server: ruby index.rb
+server-wait: 3
+init: false
+names: false
+only: []
+output: []
+header: []
+sorted: false
+user: null
+inline-errors: false
+details: false
+method: []
+color: true
+level: info
+timestamp: false
+silent: false
+path: []
+blueprint: polls-apiary.apib
+endpoint: 'http://localhost:4567'
