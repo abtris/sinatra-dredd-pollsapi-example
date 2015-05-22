@@ -1,11 +1,11 @@
 sudo: false
-language: node_js
-node_js:
-  - "iojs"
+language: ruby
+rvm:
+  - 1.9.3
+  - 2.1.0
 before_install:
   - npm install -g dredd
-  - cd koa && npm install && cd ..
-  - cd hapi && npm install && cd ..
-  - cd express && npm install && cd ..
+  - gem update bundler
+  - bundle install
 script:
-  - ./test.sh
+  - dredd
