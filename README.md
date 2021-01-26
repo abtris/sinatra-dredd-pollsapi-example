@@ -1,6 +1,7 @@
 # Sinatra example of Polls API tested by Dredd
 
-[![Build Status](https://travis-ci.org/abtris/sinatra-dredd-pollsapi-example.svg?branch=master)](https://travis-ci.org/abtris/sinatra-dredd-pollsapi-example)
+[![Actions Status](https://github.com/abtris/sinatra-dredd-pollsapi-example/workflows/Ruby/badge.svg)](https://github.com/abtris/sinatra-dredd-pollsapi-example/actions)
+
 
 This repository contains basic skeleton Sinatra implementations of Polls API.
 
